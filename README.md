@@ -29,7 +29,7 @@ Enter this code in termux
 ```console
     ~$ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
 ```
-### After that if you make changes to your GitHub repository you don't have to follow all steps just follow final step or see below
+##### After that if you make changes to your GitHub repository you don't have to follow all steps again just follow final step or paste the Below code.
 ```console
     ~$ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
 ```
