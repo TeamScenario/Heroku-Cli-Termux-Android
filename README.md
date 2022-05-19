@@ -21,7 +21,7 @@ Enter this code in termux
 ```console
  $ cd Scenario 
 ```
-### enter your app name instead of appname
+### enter your app name instead of appname (Heroku app name)
 ```console
  $ heroku git:remote -a yourapp
 ```
