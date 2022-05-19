@@ -2,7 +2,8 @@
 <p><b>Before proceeding Star it ! ✨🍀</b></p>
 
 - [x] Android compatible 
-- [x] Android 7+
+- [x] Android 7 and above
+- [ ] Below Android 7
 - [x] Images are clickable!!
 
 <h4>Download termux!</h4>    
