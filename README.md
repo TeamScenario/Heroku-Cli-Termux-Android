@@ -11,27 +11,27 @@
 
 Enter this code in termux
 ```console
- ~$ apt update && apt upgrade && pkg install git && sh -c "$(curl -fsSL https://raw.githubusercontent.com/TeamScenario/Heroku-Cli-Termux-Android/TeamScenario/install.sh)" && heroku login -i
+ $ apt update && apt upgrade && pkg install git && sh -c "$(curl -fsSL https://raw.githubusercontent.com/TeamScenario/Heroku-Cli-Termux-Android/TeamScenario/install.sh)" && heroku login -i
 ```
 ### After heroku login
 ```console
- ~$ cd /storage/emulated/0 && git clone https://github.com/TeamScenario/Scenario
+ $ cd /storage/emulated/0 && git clone https://github.com/TeamScenario/Scenario
 ```
 ### After clone 
 ```console
- ~$ cd Scenario 
+ $ cd Scenario 
 ```
 ### enter your app name instead of appname
 ```console
- ~$ heroku git:remote -a yourapp
+ $ heroku git:remote -a yourapp
 ```
 ### Final step 
 ```console
- ~$ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
+ $ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
 ```
 ##### After that if you make changes to your GitHub repository you don't have to follow all steps again just follow final step or paste the Below code.
 ```console
- ~$ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
+ $ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
 ```
 All done !
 
