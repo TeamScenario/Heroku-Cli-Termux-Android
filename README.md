@@ -36,5 +36,5 @@ Enter this code in termux
 All done !
 
 [^TeamScenario]
-[^TeamScenario]: ©2022 TeamScenario All rights reserved!
+[TeamScenario]: ©2022 TeamScenario All rights reserved!
 
