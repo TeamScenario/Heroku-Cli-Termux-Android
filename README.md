@@ -27,11 +27,11 @@ Enter this code in termux
 ```
 ### Final step 
 ```console
- $ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
+ $ git pull https://github.com/TeamScenario/Scenario TeamScenario && git push heroku HEAD:master
 ```
 ##### After that if you make changes to your GitHub repository you don't have to follow all steps again just follow final step or paste the Below code.
 ```console
- $ git pull https://github.com/TeamScenario/Scenario && git push heroku HEAD:master
+ $ git pull https://github.com/TeamScenario/Scenario TeamScenario && git push heroku HEAD:master
 ```
 All done !
 
