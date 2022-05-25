@@ -33,6 +33,7 @@ Enter this code in termux
 ###### Location of repo in local machine 
 ```console
  $ cd /storage/emulated/0/Scenario
+```
 ##### Then finally 
 ```console
  $ git pull https://github.com/TeamScenario/Scenario TeamScenario && git push heroku HEAD:master
