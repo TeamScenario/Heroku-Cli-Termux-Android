@@ -30,6 +30,10 @@ Enter this code in termux
  $ git pull https://github.com/TeamScenario/Scenario TeamScenario && git push heroku HEAD:master
 ```
 ##### After that if you make changes to your GitHub repository you don't have to follow all steps again just follow final step or paste the Below code.
+###### Location of repo in local machine 
+```console
+ $ cd /storage/emulated/0/Scenario
+##### Then finally 
 ```console
  $ git pull https://github.com/TeamScenario/Scenario TeamScenario && git push heroku HEAD:master
 ```
